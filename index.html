@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Java Script DOM - Samples</title>
-        <link rel="stylesheet" href="css/style.css">
+<!--        <link rel="stylesheet" href="css/style.css">-->
     </head>
     <body>
 
@@ -16,7 +16,7 @@
             </header>
 
             <div id="parFirst">
-                <p onclick="alert('z paragrafu');">Tekst w tym akapicie.</p>
+                <p onclick="this.style.backgroundColor='pink'">Tekst w tym akapicie.</p>
                 <!-- W 6 zadaniu dodajemy do linku poniżej atrybut onclick="alert('kliknięto link');" -->
                 <a class="link" href="#">Akapit Link 1</a><br>
                 <div></div>
@@ -34,6 +34,6 @@
 
         </section>
 
-        <script src="js/6-zdarzenia-events.js"></script>
+        <script src="js/5-events.js"></script>
     </body>
 </html>
